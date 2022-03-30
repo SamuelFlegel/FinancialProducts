@@ -16,7 +16,7 @@ Programs to price:
 Exotic Options, Interest Rate Derivatives, Discrete Dividend Options
 
 ## Notes
-The tables provided in Espen Gaarder Haugs Complete Guide to Option Pricing Formulas was used to check for errors.
+The tables provided in Espen Gaarder Haugs Complete Guide to Option Pricing Formulas were used to check for errors.
 
 The valuation algorithms are based on theoretical models and are therefore underlying rigid assumptions, which are not met in reality. These functions are a scientific exercise only and should especially not be used for investment decision making.
 
