@@ -15,13 +15,21 @@ Opt1 = Vanilla('European','c', 18, 19, 1, 0.1, 0.05, 0.28)
 print(Opt1.price())
 print(Opt1.Delta())
 
-Opt2 = Vanilla('American','c', 18, 19, 1, 0.1, 0.05, 0.28)
+Opt2 = Vanilla('European','p', 18, 19, 1, 0.1, 0.05, 0.28)
 print(Opt2.price())
 print(Opt2.Delta())
 
-Opt3 = Vanilla('American','c', 18, 19, np.inf, 0.1, 0.05, 0.28)
+Opt3 = Vanilla('American','c', 18, 19, 1, 0.1, 0.05, 0.28)
 print(Opt3.price())
 print(Opt3.Delta())
+
+Opt4 = Vanilla('American','p', 18, 19, 1, 0.1, 0.05, 0.28)
+print(Opt4.price())
+print(Opt4.Delta())
+
+Opt5 = Vanilla('American','c', 18, 19, np.inf, 0.1, 0.05, 0.28)
+print(Opt5.price())
+print(Opt5.Delta())
 
 # Bad example of a volatility smirk 
 
