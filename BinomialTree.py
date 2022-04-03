@@ -114,19 +114,6 @@ class CRR:
         return BinomialTree(self.F, self.payoff_func, self.S, self.X, self.T, self.r, up, down, prob, self.n).price()
 
 
-# Example for a powered call
-
-p2_call = lambda x,y: max(y-x, 0)**2
-
-S = 100
-X = 100
-T = 0.5
-r = 0.1
-b = 0.07
-v = 0.3
-n = 1000
-
-CRR('European', p2_call, S, X, T, r, b, v, n).price()
 
 
 
