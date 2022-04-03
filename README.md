@@ -10,7 +10,7 @@ Calculations are based on Generalized Black Scholes 1973, Merton 1973, Black 197
 The implied_V function allows to calculate the implied volatility.
 
 ## Demonstration.py
-Demonstration of the use of the exsisting functions.
+Demonstration of how to use the existing functions.
 
 ## Planned
 Full support of using numpy arrays to price multiple products at once.
