@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from Vanilla import implied_V, Vanilla
+from BinomialTree import CRR
 
 # Example of Vanilla
 
@@ -54,7 +55,19 @@ ax.set_zlabel('Volatility')
 plt.show()
 
 
+# Example for a powered call using Cox-Ross-Rubinstein
 
+p2_call = lambda x,y: max(y-x, 0)**2
+
+S = 100
+X = 100
+T = 0.5
+r = 0.1
+b = 0.07
+v = 0.3
+n = 1000
+
+CRR('European', p2_call, S, X, T, r, b, v, n).price()
 
 
 
