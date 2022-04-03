@@ -86,8 +86,6 @@ class Vanilla:
                          - margined Future: cost_of_carry = 0, riskfree_rate = 0
                          - currency: cost_of_carry = risk free rate of underlying currency
         volatility       - annualized volatility of underlying returns
-
-    Can be used with numpy arrays to price multple options at once
     """
     def __init__(self, 
                  TypeFlag, CallPutFlag,
