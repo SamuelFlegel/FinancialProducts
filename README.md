@@ -9,6 +9,9 @@ Calculations are based on Generalized Black Scholes 1973, Merton 1973, Black 197
 
 The implied_V function allows to calculate the implied volatility.
 
+## BinomialTree.py
+Implementation of a generalized binomial tree model to price European and American options with arbitrary payoff functions. Also contains a wrapper for Cox-Ross-Rubinstein parametrisation. Support of Greeks calculation is planned.
+
 ## Demonstration.py
 Demonstration of how to use the existing functions.
 
