@@ -16,12 +16,12 @@ Demonstration of how to use the existing functions.
 Full support of using numpy arrays to price multiple products at once.
 
 Programs to price:
-Exotic Options, Interest Rate Derivatives, Discrete Dividend Options
+Exotic Options, Interest Rate Derivatives, Discrete Dividend Options, American Options with Bjerksund Stensland 2002, Bonds with arbitrary yield curve function
 
 ## Notes
-The tables provided in Espen Gaarder Haugs Complete Guide to Option Pricing Formulas were used to check for errors.
+The tables provided in Espen Gaarder Haugs Complete Guide to Option Pricing Formulas and the website http://www.math.columbia.edu/~smirnov/options13.html were used to check for numerical precision.
 
-The valuation algorithms are based on theoretical models and are therefore underlying rigid assumptions, which are not met in reality. The files in this repository are a scientific exercise only and should especially not be used for investment decision making.
+The valuation algorithms are based on theoretical models and are therefore underlying rigid assumptions, which are not met in reality. The files in this repository may contain errors, are a scientific exercise only and should especially not be used for investment decision making.
 
 
 
